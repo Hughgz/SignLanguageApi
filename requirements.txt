@@ -1,0 +1,7 @@
+Flask==2.2.5
+Flask-SocketIO==5.3.2
+python-socketio==5.8.0
+numpy==1.23.5
+mediapipe==0.9.1.0
+opencv-python==4.7.0.68
+opencv-contrib-python==4.7.0.68
