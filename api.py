@@ -114,8 +114,4 @@ def stream_video():
 
         # Send frame to client
         socketio.emit('frame', {'image': frame_base64})
-
     cap.release()
-
-if __name__ == "__main__":
-    socketio.run(app, host='0.0.0.0', port=5000)
